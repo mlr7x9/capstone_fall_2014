@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Assignment 2 </title>
+<style>
+			#columnsWrapper {
+				width: 900px;
+				margin: 5px auto;
+			}
+			#columnsHeader {
+				text-align: center;
+			}
+			.column {
+				padding: 10px;
+				margin: 5px;
+				float: left;
+				min-height: 360px;
+				text-indent: 20px;
+				-webkit-column-break-after: always;
+			}
+			#columnLeft {
+				width: 200px;
+				background-color: red;
+			}
+			#columnMid {
+				width: 300px;
+				background-color: green;
+			 }
+			#columnRight {
+				width: 280px;
+				background-color: blue;
+			}
+			.group:before,
+			.group:after {
+			content:"";
+			display:table;
+			}
+			.group:after {
+			clear:both;
+			}
+			.group {
+			zoom:1; /* For IE 6/7 (trigger hasLayout) */
+			}
+		</style>
+	</head>
+	<body>
+		<div id="columnsWrapper" class ="group">
+			<div id = "columnLeft" class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc arcu urna, vulputate vel aliquet quis, pellentesque at diam. Vestibulum ultricies felis mi, sed venenatis enim dapibus auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec eget arcu ac turpis pellentesque ullamcorper et condimentum lorem. Mauris elementum gravida eros, eget ultrices sapien tristique et. Sed et augue orci. Integer viverra eros vel nulla sagittis iaculis. Ut ut enim sit amet turpis lobortis hendrerit quis ac dolor. Morbi ipsum mauris, ullamcorper in sapien ac, placerat egestas nulla. Suspendisse sed quam massa. Vivamus molestie massa et massa ultricies, a pretium sapien pretium. Etiam facilisis id velit in sollicitudin. Curabitur commodo leo libero, ut aliquam odio pretium ut.</div>
+			<div id ="columnMid" class="column">Donec ullamcorper ultricies enim at gravida. Morbi sodales nisi eget dictum varius. Ut tempus lacinia purus vitae vulputate. Pellentesque vitae ante quis dolor mattis porta. Nullam porta leo ut nisi sollicitudin, non hendrerit neque tempus. Mauris sit amet eros fringilla, dapibus felis iaculis, auctor urna. Etiam id leo quis justo egestas mollis. Praesent vitae convallis sem. Nulla vehicula lacus sed turpis suscipit sagittis. Fusce consequat ante augue, ac elementum velit rutrum et. Aliquam nec odio at orci imperdiet aliquet. Nullam ac sem convallis, lobortis turpis eget, pharetra orci.</div>
+			<div id ="columnRight" class="column">Phasellus fringilla, ante sed lacinia consequat, enim sapien consectetur diam, a dictum dolor sem ac nunc. Integer et dolor scelerisque, porta dolor sit amet, tempus enim. Etiam in scelerisque enim, ac scelerisque dui. Proin eget risus odio. Etiam non sapien non leo aliquet aliquet. Mauris dui nibh, molestie sit amet ultrices ut, luctus eget magna. Donec consectetur tincidunt molestie. Vestibulum mattis porta erat, at consectetur sem. Donec scelerisque ut velit id porta. Duis tellus eros, tincidunt quis tempor eget, accumsan sodales eros. In vitae massa auctor, sollicitudin augue in, pretium nisl. Aliquam congue, massa sit amet sagittis pretium, erat nunc faucibus mauris, quis aliquet purus tellus ut urna.</div>
+		</div>
+	</body>
+</html>

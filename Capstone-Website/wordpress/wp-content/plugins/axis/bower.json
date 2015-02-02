@@ -1,0 +1,19 @@
+{
+  "name": "Axis for WordPress",
+  "version": "1.0.1",
+  "authors": [
+    "Ændrew Rininsland <aendrew.rininsland@the-times.co.uk>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "axisjs": "~0.2.1",
+    "c3": "~0.3.0"
+  }
+}

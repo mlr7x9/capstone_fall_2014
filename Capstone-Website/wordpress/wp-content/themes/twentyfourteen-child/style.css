@@ -1,0 +1,129 @@
+/* 
+ * Theme Name: Twentyfourteen-child
+ * Theme Description: twentyfourteen theme customized for CROP
+ * Author: CROP
+ * Author URI: babbage.cs.missouri.edu/~cs4970s14grp4/wordpress
+ * Template: twentyfourteen
+ * Version: 1.0.0
+ */
+@import url(../twentyfourteen/style.css);
+/*--------------------Start custom CSS ---------------------*/
+/* align content */
+@media screen and (min-width: 1010px) {
+ 
+    .archive-header,
+ 
+    .comments-area,
+ 
+    .image-navigation,
+ 
+    .page-header,
+ 
+    .page-content,
+ 
+    .post-navigation,
+ 
+    .site-content .entry-header,
+ 
+    .site-content .entry-content,
+ 
+    .site-content .entry-summary,
+ 
+    .site-content footer.entry-meta {
+ 
+        padding-left: 55px;
+ 
+     }
+ 
+}
+ 
+.site-content .entry-header,
+ 
+.site-content .entry-content,
+ 
+.site-content .entry-summary,
+ 
+.site-content .entry-meta,
+ 
+.page-content {
+ 
+        max-width: 90%;
+ 
+}
+ 
+.comments-area {
+ 
+        max-width: 90%;
+ 
+}
+ 
+.post-navigation, .image-navigation {
+ 
+        max-width: 90%;
+ 
+}
+ 
+.site:before,
+ 
+#secondary {
+ 
+        width: 0;
+ 
+        display: none;
+ 
+     }
+ 
+.featured-content {
+ 
+        padding-left: 0;
+ 
+}
+ 
+.site-content, .site-main .widecolumn {
+ 
+        margin-left: 0;
+ 
+}
+ 
+.hentry {
+ 
+        max-width: 90%;
+ 
+}
+ 
+.post-thumbnail img {
+ 
+        width: 90%;
+ 
+        }
+/* fixing colors */
+.footer-custom-css {
+	background-color: #303030;
+}
+.site-header {
+	background-color: #303030;
+}
+button:active,
+.button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	background-color: #efbf53;
+}
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a {
+	color: #efbf53;
+	font-weight: 900;
+}
+.widget input[type="button"]:active,
+.widget input[type="reset"]:active,
+.widget input[type="submit"]:active {
+	background-color: #efbf53;
+}
+.content-sidebar .widget input[type="button"]:active,
+.content-sidebar .widget input[type="reset"]:active,
+.content-sidebar .widget input[type="submit"]:active {
+	background-color: #efbf53;
+}
